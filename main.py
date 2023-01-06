@@ -19,7 +19,7 @@ def attack(char_name: str, char_class: str) -> str:
                 f'{5 + randint(-3, -1)}')
     return (f'{char_name} не нанес урона')
 
-123
+
 def defence(char_name: str, char_class: str) -> str:
     """Генерирует количество очков защиты.
     В зависимости от выбранного типа персонажа.
